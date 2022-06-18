@@ -325,6 +325,7 @@ padding: 33px;
 .img_block{
     width: 400px;
     height: 400px;
+    position: relative;
 }
 
 .text_block{
@@ -369,8 +370,8 @@ padding: 33px;
     width: 250px;
     height: 80px;
     background-color: #FEDC5A;
-   margin-top: -150px;
-    margin-left: 100px;
+   margin-top: -260px;
+    margin-left: -80px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
    display: flex;
@@ -378,6 +379,7 @@ padding: 33px;
    align-items: center;
    flex-wrap: wrap;
    padding: 10px;
+   
 }
 
 
@@ -393,4 +395,280 @@ padding: 33px;
 
 .absolute_title{
     font-size: 18px;
+}
+
+
+.bacground_block{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 350px;
+    width: 300px;
+}
+
+.text_group{
+    margin-top: 50px;
+
+}
+
+.img_section{
+    width: 400px;
+    position: relative;
+    
+}
+
+
+.img_tag{
+    position: absolute;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: -380px;
+}
+
+
+.content{
+    background-image: url(/img/Rectangle\ 3.png);
+    background-size: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+
+.button_content{
+    position: absolute;
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    background-color: #ff0000;
+   margin-top: -350px;
+    margin-left: -80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 10px;
+   color: #ffff;
+}
+
+
+.text_group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+
+.text_selected{
+    width: 400px;
+}
+
+
+.text_selected h1{
+    font-size: 40px;
+}
+
+.text_selected p{
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+
+.button_team{
+    width: 280px;
+    height: 90px;
+   background-color: #fff;
+    margin-left: -80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 6px;
+    padding: 6px;
+}
+
+
+.img_main{
+    width: 40px;
+    
+}
+
+
+.button_class{
+
+    width: 280px;
+    height: 90px;
+   background-color: #fff;
+    margin-left: -80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 6px;
+    padding: 6px;
+    
+}
+
+
+.section_group{
+    margin-top: 100px;
+    height: 500px;
+}
+
+.text_index{
+    margin-left: 30%;
+    font-size: 45px;
+    width: 500px;
+    text-align: center;
+}
+
+
+.img_oval{
+    width: 40px;
+    height: 40px;
+}
+
+.card_main{
+    width: 300px;
+    height: 250px;
+    border: 1px solid 
+    #EAE9F2;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.text_end{
+    margin-top: -50px;
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.brands{
+    color: 
+    #5454D4;
+}
+
+
+.card_group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.box_select{
+    text-align: center;
+    color: #0000ff;
+}
+
+
+.footer_nav{
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    height: 1100px;
+    background-image: url(/img/Rectangle\ 4.png);
+    background-size: 100%;
+}
+
+
+.footer{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 28%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.footer h1{
+    font-size: 40px;
+}
+
+.footer p{
+    color: rgb(222, 208, 208);
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+input{
+    display: block;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.input_button{
+    margin-top: 30px;
+    border: 1px solid red;
+    padding: 10px 200px;
+    color: red;
+    transition: 1s;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.input_button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+
+
+
+.footer_selected{
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    padding: 50px;
+}
+
+
+.footer_navbar{
+    width: 300px;
+    
+}
+
+
+.footer_item{
+    padding: 13px;
+}
+
+.footer_box{
+    color: #fff;
+}
+
+
+.footer_box i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: 
+    #696871;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+
+.item_text{
+    color: red;
 }
